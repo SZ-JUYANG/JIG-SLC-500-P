@@ -1,0 +1,32 @@
+
+T05F0 000:581 SEGGER J-Link V4.80g Log File (0001ms, 0272ms total)
+T05F0 000:581 DLL Compiled: Feb 13 2014 20:50:02 (0001ms, 0272ms total)
+T05F0 000:581 Logging started @ 2016-03-03 21:13 (0001ms, 0272ms total)
+T05F0 000:582 JLINK_SetWarnOutHandler(...) (0000ms, 0272ms total)
+T05F0 000:582 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 68000009
+OEM: J-Link-CE
+Feature(s): JFlash, FlashDL, RDI, FlashBP, GDB  returns O.K. (0276ms, 0548ms total)
+T05F0 000:858 JLINK_SetErrorOutHandler(...) (0000ms, 0548ms total)
+T05F0 000:858 JLINK_ExecCommand("ProjectFile = "F:\聚阳\01. 项目\03. 测试制具\04. 程序\单灯控制器校正程序\application\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0549ms total)
+T05F0 000:859 JLINK_ExecCommand("Device = STM32F103VE", ...)Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).  returns 0x00 (0001ms, 0550ms total)
+T05F0 000:860 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetDLLVersion()  returns 48007 (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetCompileDateTime() (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetFirmwareString(...) (0000ms, 0550ms total)
+T05F0 000:860 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0550ms total)
+T05F0 000:860 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0551ms total)
+T05F0 000:861 JLINK_SetSpeed(50) (0000ms, 0551ms total)
+T05F0 000:861 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0551ms total)
+T05F0 000:861 JLINK_Reset()
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.1 Volt).
+Please check target power.STM32F1xxx: Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware.JLINK_GetId()  returns 0x00000000 (0000ms, 0854ms total)
+T05F0 001:164 JLINK_GetId()  returns 0x00000000 (0000ms, 0854ms total)
+T05F0 001:168 JLINK_GetFirmwareString(...) (0000ms, 0854ms total)
+T05F0 004:487 JLINK_Close() (0001ms, 0855ms total)
+T05F0 004:487  (0001ms, 0855ms total)
+T05F0 004:487 Closed (0001ms, 0855ms total)
